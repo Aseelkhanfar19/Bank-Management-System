@@ -30,10 +30,21 @@
 2- Open the terminal in your IDE.  
 3- Execute this command   
 ```git clone https://github.com/Aseelkhanfar19/Bank-Management-System```  
-4- Install Requirements: Run the following command to install all necessary libraries  
+4- Navigate to the inner folder by ```cd Bank-Management-System/bankProject```  
+5- Install Requirements: Run the following command to install all necessary libraries  
 ```pip install -r requirements.txt```   
-5- Run the System: Start the application by executing   
+6- Run the System: Start the application by executing   
 ```streamlit run GUI.py```  
+### 💡Pro Tip: For the best experience, open the inner bankProject folder directly as your main project directory in your IDE. This ensures that all internal file paths and the SQLite database (Main_bank.db) are recognized correctly. 
+### The directory in your IDE should be:
+### ✅ ```bankProject```  
+### ❌ ```Wallet-System-main\bankProject```.
+### 1️⃣ After extract the ZIP file reach this folder below  
+![The inner directory](bankProject/Screenshots/Screenshot%202026-03-15%20224314.png)  
+### 2️⃣ Then Drag it to IDE 
+![IDE Setup Guide](bankProject/Screenshots/InnerFolder.png)
+
+
 
 ## 🔑Demo Credentials  
 **Note: Since the database uses dummy data for testing purposes, you can use the following accounts to explore the system's functionalities without needing to register a new account.**  
